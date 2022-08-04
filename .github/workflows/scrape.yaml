@@ -16,7 +16,7 @@
 on:
   workflow_dispatch:
   schedule:
-    - cron:  '0 18 * * *' # once per day
+    - cron:  '0 18 * * 1' # once per day
 name: Scrape data
 jobs:
   build:
